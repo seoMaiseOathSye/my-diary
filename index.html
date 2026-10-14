@@ -17,20 +17,27 @@
     h1 {
       font-size: 24px;
       font-weight: normal;
-      margin-bottom: 48px;
-    }
-    article {
       margin-bottom: 40px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      margin-bottom: 20px;
     }
     time {
       display: block;
-      margin-bottom: 8px;
       color: #888;
       font-size: 13px;
     }
-    p {
-      margin: 0;
-      white-space: pre-wrap;
+    a {
+      color: #333;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
     }
     footer {
       margin-top: 64px;
@@ -42,10 +49,12 @@
 <body>
   <h1>私の日記</h1>
   <main>
-    <article>
-      <time datetime="2026-10-12">2026年10月12日</time>
-      <p>ここから始めます。</p>
-    </article>
+    <ul>
+      <li>
+        <time datetime="2026-10-12">2026年10月12日</time>
+        <a href="diary-2026-10-12.html">ここから始めます。</a>
+      </li>
+    </ul>
   </main>
   <footer>個人的な記録</footer>
 </body>
